@@ -38,7 +38,7 @@ namespace Ex
                     maxW = i;
                 }
             }
-            Console.WriteLine($"{worker[maxW].surName} have max salaty {maxSal}");
+            Console.WriteLine($"{worker[maxW].surName} have max salaty {maxSal} and he/she is {worker[maxW].prof}");
             for (int i = 1; i < worker.Length; i++)
             {
                 if (minSal > worker[i].det * worker[i].sal)
@@ -47,7 +47,7 @@ namespace Ex
                     minW = i;
                 }
             }
-            Console.WriteLine($"{worker[minW].surName} have min salaty {minSal}");
+            Console.WriteLine($"{worker[minW].surName} have min salaty {minSal} and he/she is {worker[minW].prof}");
             int count = 0;
             int midSal = 0;
             for (int i = 0; i < worker.Length; i++)
